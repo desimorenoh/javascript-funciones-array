@@ -122,7 +122,7 @@ test('Defines averageWordLength', ()=> {
     expect(typeof averageWordLength).toBe('function');
   });
 
-test('returns undefined testh an empty array', ()=> {
+test('returns undefined test an empty array', ()=> {
     expect(averageWordLength([])).toBe(undefined);
   });
 
@@ -209,7 +209,7 @@ test('returns five when the word appears 5 times on the array', ()=> {
   });
 });
 
-describe('Counting Repetion - greatestProduct', ()=> {
+describe.only('Counting Repetion - greatestProduct', ()=> {
 test('Defines greatestProduct #9', ()=> {
     expect(typeof greatestProduct).toBe('function');
   });
