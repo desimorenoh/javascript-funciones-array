@@ -192,7 +192,7 @@ test('Defines howManyTimes', ()=> {
     expect(typeof howManyTimes).toBe('function');
   });
 
-test('returns false testh an empty array', ()=> {
+test('returns false test an empty array', ()=> {
     expect(howManyTimes([])).toBe(undefined);
   });
 
@@ -209,7 +209,7 @@ test('returns five when the word appears 5 times on the array', ()=> {
   });
 });
 
-describe.only('Counting Repetion - greatestProduct', ()=> {
+describe('Counting Repetion - greatestProduct', ()=> {
 test('Defines greatestProduct #9', ()=> {
     expect(typeof greatestProduct).toBe('function');
   });

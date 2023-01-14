@@ -76,8 +76,8 @@ let count = 0;
 
 
 export function greatestProduct(matrix){
-  let product = 1; // definim  variables
-  for (let indexX = 0; indexX < matrix[0].length; indexX++) { // iniciem bucle horizontal per determinar el valor de cada una de les verticals
+  let product = 1; // definimos  variables
+  for (let indexX = 0; indexX < matrix[0].length; indexX++) { // iniciamos bucle horizontal para determinar el valor de cada una de les verticals
     let varY = 1; // definim  variables
     for (let indexY = 0; indexY < matrix.length; indexY++) { // calculem el valor de cada vertical
       varY = varY * matrix[indexX][indexY];
